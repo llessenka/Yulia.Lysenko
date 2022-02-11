@@ -1,0 +1,142 @@
+* {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+header {
+  padding: 0 250px 100px 250px;
+  }
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  }
+
+.section {
+  padding: 100px 0;
+  text-align: center;
+  }
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.list__item {
+  display: inline;
+  margin-left: 15px;
+  }
+
+.link {
+  text-decoration: none;
+  color:  #828282;
+  }
+  
+.link--active {
+  text-decoration: underline;
+  color: black;
+  }
+
+.navigation {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 25px 230px;
+  }
+
+.header-1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47.3392px;
+  line-height: 64px;
+  }
+
+.about-me {
+  background-color: #F6F6F6;
+  text-align: center;
+  }
+
+.subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+  }
+
+.skill__description {
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  color: #828282;
+  }  
+
+.skill {
+  display: inline-block;
+  padding: 0 45px
+  }
+
+.skills__container {
+   margin-top: 80px
+  }
+
+.stars-container {
+  margin-top: 60px;
+  }
+  
+.star {
+  margin-right: 8px;
+  }
+
+.portfolio{
+  background-color: #F6F6F6;
+ }
+
+.portfolio__picture {
+  padding: 100px 250px;
+ }
+
+.potfolio__description{
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-decoration-line: underline;
+ }
+
+.contacts__description{
+  margin-bottom: 78px;
+ }
+
+.contacts__button{
+  display: inline-block;	
+  box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 37px 0;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+  line-height: 25px;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #fff;
+  letter-spacing: 0.1em;
+	background-color: #000;
+  cursor: pointer;
+	touch-action: manipulation;  
+ }
+
+.recomendations{
+ margin-top: 44px;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 19px;
+ text-align: center;
+ color: #828282;
+ }
+
+.media {
+  display: inline;
+  margin: 0 30px;
+ }
+
