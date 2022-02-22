@@ -1,0 +1,47 @@
+.header{
+    padding: 10px 35px 0 45px;
+   
+  }
+
+  .doc{
+    margin-left: 40px;
+  }
+
+  
+.heading-text{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: PT Sans;
+    margin-top: 50px;
+  }
+  
+  .text{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 48px;
+    font-family: Roboto;
+    margin-top: 30px;
+    letter-spacing: 0.04em;
+    
+  }
+  
+  .main__content{
+    margin: 10px 25px 500px 45px;
+  }
+  
+  .underline__text{
+    text-decoration: underline;
+    
+  }
+
+  .bold__text {
+      font-weight: 700;
+  }
+
+  .selected__text {
+      background-color: rgb(224, 221, 221);
+      
+  }
