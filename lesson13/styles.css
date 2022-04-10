@@ -92,10 +92,6 @@ select:focus {
     outline: 1px solid #007BFF;
 }
 
-select:first-of-type {
-    color: #969696;
-}
-
 .form-elem {
     margin-top: 20px;
 }
@@ -332,4 +328,47 @@ input[type=file] {
     text-align: center;
     letter-spacing: -0.1px;
     cursor: pointer;
+}
+
+.jq-selectbox {
+    width: 245px;
+}
+
+.jq-selectbox__select {
+    height: 38px;
+    padding: 0 45px 0 10px;
+    margin-top: 7px;
+    border: 1px solid #e4e4e4;
+    border-bottom-color: #e4e4e4;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: none;
+    font: 16px/36px Arial, Inter sans-serif;
+    color: #232323;
+    text-shadow: none;
+}
+
+.jq-selectbox__trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34px;
+    height: 100%;
+    border-left: none;
+
+}
+
+.jq-selectbox__trigger-arrow {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #232323;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+
+
+    /* Немного не поняла как подключить эту иконку */
+    background-image: url("../lesson13/🔹\ scroll.svg");
 }

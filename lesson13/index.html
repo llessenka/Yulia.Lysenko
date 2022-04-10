@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/plugins/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/plugins/jquery.formstyler.theme.css">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -58,8 +60,8 @@
                 <div class="location">
                     <div class="form-elem">
                         <label for="country">Country</label>
-                        <select name="country[]" id="country">
-                            <option disabled selected>Select</option>
+                        <select name="country" id="country" data-placeholder="Select">
+                            <option></option>
                             <option>Albania</option>
                             <option>Australia</option>
                             <option>Austria</option>
@@ -162,8 +164,8 @@
                 <div class="location">
                     <div class="form-elem">
                         <label for="country">Country</label>
-                        <select name="country[]" id="country2">
-                            <option disabled selected>Select</option>
+                        <select name="country" id="country2" data-placeholder="Select">
+                            <option></option>
                             <option>Albania</option>
                             <option>Australia</option>
                             <option>Austria</option>
@@ -201,6 +203,20 @@
             </form>
         </section>
     </section>
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/plugins/jquery.formstyler.min.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+
+                $('select').styler();
+
+            });
+        })(jQuery);
+    </script>
 </body>
 
 </html>
