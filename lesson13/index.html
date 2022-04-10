@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="first-form form-section">
+
+        <section class="first-screen">
+
+            <form method="post" enctype="multipart/form-data" action="#" target="">
+
+                <header class="header">
+                    <div>
+                        <span class="heading-text">
+                            Create an Account
+                        </span>
+                    </div>
+                </header>
+                <div class="initials__container">
+                    <div class="form-elem">
+                        <label for="name">First Name</label>
+                        <input type="text" name="name" id="name" class="name">
+                    </div>
+                    <div class="form-elem">
+                        <label for="surname">Last Name</label>
+                        <input type="text" name="surname" id="surname" class="">
+                    </div>
+                </div>
+
+                <div class="form-elem">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" class="first-form__email">
+                </div>
+
+                <p class="warning">We'll never share your email with anyone else.</p>
+
+                <div class="form-elem">
+                    <div class="form__radio">
+                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <label for="male">Male</label>
+
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+
+                <div class="location">
+                    <div class="form-elem">
+                        <label for="country">Country</label>
+                        <select name="country[]" id="country">
+                            <option disabled selected>Select</option>
+                            <option>Albania</option>
+                            <option>Australia</option>
+                            <option>Austria</option>
+                            <option>Belgium</option>
+                            <option>Brazil</option>
+                            <option>Bulgaria</option>
+                            <option>Canada</option>
+                            <option>China</option>
+                            <option>France</option>
+                            <option>Greece</option>
+                            <option>Italy</option>
+                            <option>Ukraine</option>
+                        </select>
+                    </div>
+
+                    <div class="form-elem">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" class="">
+                    </div>
+                </div>
+
+                <div class="form-elem">
+                    <button type="submit" class="form-btn">Sign Up</button>
+                </div>
+
+                <section class="arrangement__section">
+                    <div class="form-elem">
+                        <span class="arrangement-text">
+                            By clicking the 'Sign Up' button, you confirm that you accept our
+                            <br>
+                            <a href="">Terms of Use </a>and <a href="">Privacy Policy</a>.
+                        </span>
+                    </div>
+                </section>
+                <div class="line"></div>
+                <section class="entry__section">
+                    <div class="form-elem">
+                        <span class="entry-text">
+                            Have an account? <a href="">Log In</a>
+                        </span>
+                    </div>
+                </section>
+            </form>
+        </section>
+    </section>
+
+    <section class="second-form form-section">
+
+        <section class="second-screen">
+
+            <form method="post" enctype="multipart/form-data" action="#" target="">
+                <section class="portrait-container">
+                    <header class="header">
+                        <div>
+                            <span class="heading-text">
+                                Profile
+                            </span>
+                        </div>
+                    </header>
+                    <div class="portrait-upload">
+                        <div class="yourPhoto">
+                            <img src="📷picture.svg" alt="photo">
+                        </div>
+                        <div class="form-elem">
+                            <div class="photo-upload__section">
+                                <div class="file">
+                                    <div class="camera-icon__section">
+                                        <label for="file"></label>
+                                        <input type="file" name="myFile">
+                                        <div class="camera-icon">
+                                            <img src="Camera.svg" alt="icon">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="trash-icon__section">
+                                    <div class="trash-icon">
+                                        <img src="🔹 trash.svg" alt="icon" class="trash">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="photo-size__container">
+                                <span class="photo-size__text">Up to 1 MB (300x300 px)</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="initials__container">
+                    <div class="form-elem">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name2" class="name">
+                    </div>
+                    <div class="form-elem">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email2" class="second-form__email">
+                    </div>
+                </div>
+
+                <div class="location">
+                    <div class="form-elem">
+                        <label for="country">Country</label>
+                        <select name="country[]" id="country2">
+                            <option disabled selected>Select</option>
+                            <option>Albania</option>
+                            <option>Australia</option>
+                            <option>Austria</option>
+                            <option>Belgium</option>
+                            <option>Brazil</option>
+                            <option>Bulgaria</option>
+                            <option>Canada</option>
+                            <option>China</option>
+                            <option>France</option>
+                            <option>Greece</option>
+                            <option>Italy</option>
+                            <option>Ukraine</option>
+                        </select>
+                    </div>
+
+                    <div class="form-elem">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city2" class="">
+                    </div>
+                </div>
+                <div class="number-form">
+                    <div class="form-elem">
+                        <label for="zip">Zip Code</label>
+                        <input type="text" name="zip" id="zip" class="zipCode">
+                    </div>
+
+                    <div class="form-elem">
+                        <label for="number">Phone Number</label>
+                        <input type="text" name="number" id="number">
+                    </div>
+                </div>
+                <div class="form-elem">
+                    <button type="submit" class="profile-btn">Update</button>
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+
+</html>
