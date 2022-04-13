@@ -1,0 +1,196 @@
+%column {
+    display: flex;
+    flex-direction: column;
+}
+
+@import "parts/reset";
+
+.header {
+    padding: 40px 126px 0 126px;
+}
+
+.main {
+    @extend .header;
+}
+
+.header-logo {
+    margin-bottom: 45px;
+}
+
+.header-line {
+    border-top: 1px solid #EFEEF3;
+    margin-bottom: 55px;
+}
+
+.title {
+    @extend %column;
+
+    .services {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #7690A8;
+        margin-bottom: 17px;
+    }
+
+    .heading-text {
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+        letter-spacing: 0.2px;
+        color: #16133D;
+        margin-bottom: 35px;
+    }
+}
+
+.main-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.design-container {
+    @extend %column;
+    border: 1px solid #E5EAF4;
+    border-radius: 5px;
+    padding: 40px 45px 45px 40px;
+    margin-right: 40px;
+
+    &:hover {
+        border-color: #007FFC;
+    }
+}
+
+.megafon-icon_container {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        display: inline-block;
+        width: 38.46px;
+        height: 34.73px;
+    }
+}
+
+.design-heading {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-top: 30px;
+}
+
+.design-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+    margin-top: 15px;
+
+}
+
+.design-footer {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #16133D;
+    margin-top: 30px;
+
+}
+
+.ecommerce-container {
+    @extend .design-container;
+
+    &:hover {
+        border-color: #3DB370;
+    }
+
+    .ecommerce-heading {
+        @extend .design-heading;
+    }
+
+    .ecommerce-text {
+        @extend .design-text;
+    }
+
+    .ecommerce-footer {
+        @extend .design-footer;
+    }
+}
+
+.house-icon_container {
+    @extend .megafon-icon_container;
+}
+
+.application-container {
+    @extend .design-container;
+
+    .application-heading {
+        @extend .design-heading;
+    }
+
+    .application-text {
+        @extend .design-text;
+    }
+
+    .application-footer {
+        @extend .design-footer;
+    }
+}
+
+.book-icon_container {
+    @extend .megafon-icon_container;
+}
+
+.footer {
+    margin-top: 70px;
+    background-color: #16133D;
+    padding: 40px 126px 45px 126px;
+
+    .soc_links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .soc_links li {
+        margin-left: 7px;
+    }
+
+    .soc_links li a {
+        width: 35px;
+        height: 35px;
+        background-color: #EFEEF3;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+    }
+
+    .soc_links li a:hover i {
+        color: #3DB370;
+    }
+}
