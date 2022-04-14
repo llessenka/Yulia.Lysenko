@@ -77,6 +77,18 @@ input[type=text] {
     justify-content: space-between;
 }
 
+.select_country {
+    position: relative;
+}
+
+.scroll {
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    z-index: 100;
+}
+
+
 select {
     width: 245px;
     height: 38px;
@@ -367,8 +379,6 @@ input[type=file] {
     border-top: 5px solid #232323;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
+    opacity: 0;
 
-
-    /* Немного не поняла как подключить эту иконку */
-    background-image: url("../lesson13/🔹\ scroll.svg");
 }
