@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+button {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  vertical-align: top;
+}
+
+.page {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding-top: 73px;
+  padding-bottom: 170px;
+}
+
+.pic {
+  width: 100%;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.description {
+  width: 50%;
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.05em;
+  margin-bottom: 64px;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+  margin-top: 40px;
+}
+
+.main-info {
+  margin-top: 200px;
+}
