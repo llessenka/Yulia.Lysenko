@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?uya9s7');
+    src:  url('../fonts/icomoon.eot?uya9s7#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?uya9s7') format('truetype'),
+      url('../fonts/icomoon.woff?uya9s7') format('woff'),
+      url('../fonts/icomoon.svg?uya9s7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-search:before {
+    content: "\e900";
+    /* color: #5474fd; */
+  }
+  .icon-tick:before {
+    content: "\e901";
+    color: #ff6363;
+  }
+  .icon-like:before {
+    content: "\e902";
+    color: #00a2ff;
+  }
+  .icon-twitt:before {
+    content: "\e903";
+    /* color: #e8e8e8; */
+  }
+  .icon-fb:before {
+    content: "\e904";
+    /* color: #e8e8e8; */
+  }
+  .icon-pinterest:before {
+    content: "\e905";
+    /* color: #e8e8e8; */
+  }
+  .icon-li:before {
+    content: "\e906";
+    /* color: #e8e8e8; */
+  }
+  .icon-youtube:before {
+    content: "\e907";
+    /* color: #e8e8e8; */
+  }
+  
