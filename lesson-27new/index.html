@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Минимум -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Виконай додавання 0,1 і 0,2 добийся математично правильної відповіді.</p>
+                <button type="button" class="btn btn-info" onclick="addition()">Addition</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Виконай додавання рядка "1" і цифри 2 (обидві операнди повинні бути в змінних), добийся математично
+                    правильної відповіді.</p>
+                <button type="button" class="btn btn-info" onclick="addition2()">Addition 2</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Користувач вказує обсяг флешки в Гб. Програма повинна порахувати скільки файлів розміром в 820 Мб
+                    поміщається на флешку.</p>
+                <button type="button" class="btn btn-info" onclick="flashDrive()">Flash Drive</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Норма -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Користувач вводить суму грошей в гаманці і ціну однієї шоколадки. Програма виводить скільки шоколадок
+                    може купити користувач і скільки здачі у нього залишиться.</p>
+                <button type="button" class="btn btn-info" onclick="purchase()">Purchase</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитай у користувача тризначне число і виведи його задом наперед. Для вирішення завдання тобі
+                    знадобиться оператор% (залишок від ділення).</p>
+                <button type="button" class="btn btn-info" onclick="digit3Num()">3 digit number</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Максимум -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Користувач вводить суму вкладу в банк на 2 місяці, з процентною ставкою депозиту 5% річних. Вивести
+                    суму нарахованих відсотків.</p>
+                <button type="button" class="btn btn-info" onclick="profit()">Profit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Що повернуть вираження:
+                    2 && 0 && 3
+
+                    2 || 0 || 3
+
+                    2 && 0 || 3</p>
+                <button type="button" class="btn btn-info" onclick="returnExpression()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Завдання з використанням IF -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p> Запитати у користувача число та визначити чи воно позитивне, негативне або нуль</p>
+                <button type="button" class="btn btn-info" onclick="NumCheck()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати у користувача його вік та перевірити вірність вказаних даних (0-120 років)</p>
+                <button type="button" class="btn btn-info" onclick="ageCheck()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати у користувача число та вивести його модуль (|7| = 7, |-7| = 7)</p>
+                <button type="button" class="btn btn-info" onclick="numModule()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p> Запитати у користувача час (години, хвилини, секунди) та перевірити коректність вказаних даних</p>
+                <button type="button" class="btn btn-info" onclick="timeCheck()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати координати крапки (x, y) та визначити номер чверті, в яку потрапила крапка. Треба врахувати
+                    випадки, коли крапка втрапита на осі або в початок координат.</p>
+                <button type="button" class="btn btn-info" onclick="coordinates()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Завдання з використанням SWITCH -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати у користувача номер місяця та вивести його назву</p>
+                <button type="button" class="btn btn-info" onclick="monthNum()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p> Реалізувати калькулятор. Користувач вказує 2 числа та знак (+ - * /).</p>
+                <button type="button" class="btn btn-info" onclick="calculator()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Завдання з використанням тернарного оператору -->
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати 2 числа та вивести більше з них</p>
+                <button type="button" class="btn btn-info" onclick="biggerNum()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати одне число та перевірити чи воно кратне 5 або ні.</p>
+                <button type="button" class="btn btn-info" onclick="multipleNum()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-4">
+        <div class="card mb-4">
+            <div class="card-body">
+                <p>Запитати у користувача назву планети. Якщо користувач вказав "Земля" або "земля", вивести "Привіт,
+                    землянин!", в інших випадках вивести "Привіт, іншопланетянин!"</p>
+                <button type="button" class="btn btn-info" onclick="planet()">Rezult</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
