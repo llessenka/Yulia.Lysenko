@@ -1,0 +1,277 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+button {
+  transition: all 0.2s ease;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #2B3040;
+}
+
+.container {
+  width: 1000px;
+  height: 860px;
+  margin: 40px auto;
+  padding-top: 150px;
+  background: url(../img/bg-image.png) center no-repeat #2B3040;
+  background-blend-mode: overlay;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.game-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.bg-img {
+  width: 1000px;
+  height: 860px;
+  margin: 0 auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  width: 155px;
+  height: 60px;
+  background-color: #13E28D;
+  border: #13E28D;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #1cb173;
+}
+
+.tab_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  height: 120px;
+  background-color: #2B3040;
+  padding: 28px 50px;
+}
+.tab_list .active {
+  color: #fff;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #8D91A3;
+  text-decoration: none;
+}
+.tab:hover {
+  color: #fff;
+}
+
+.tab_content {
+  display: none;
+}
+
+.tab_content.active {
+  display: block;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.tab_text {
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: #212534;
+  width: 600px;
+  height: 432px;
+}
+
+.card-info_block {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.card-info_block-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card-info {
+  color: #B7BACD;
+  margin-top: 40px;
+  width: 90%;
+}
+
+.discount {
+  color: #FFDD3F;
+  margin-bottom: 4px;
+}
+
+.card-desc {
+  width: 319px;
+  height: 312px;
+}
+
+.card-desc_first-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-desc_game-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.farcry-img {
+  width: 160px;
+  height: 230px;
+  margin-top: 15px;
+}
+
+.fa-star {
+  font-size: 20px;
+  color: #FFDD3F;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.pie-title-center {
+  display: inline-block;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  line-height: 22px;
+  top: 32%;
+  left: 0;
+  right: 0;
+  color: #B7BACD;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+}
+
+.jq-star {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.jq-star-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.card-rating_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.rating-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating-desc {
+  color: #B7BACD;
+}
+
+.card-purchase_block {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 70px;
+}
+
+.card-purchase_block-price {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.first-released {
+  margin-bottom: 20px;
+}

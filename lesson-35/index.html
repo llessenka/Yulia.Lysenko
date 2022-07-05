@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-info">
+
+            <ul class="tab_list">
+                <li>
+                    <a href="javascript:void(0)" id="tab_1" class="tab active">
+                        <span class="icon icon-info-icon"></span>
+                        <div class="tab_text">Information</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" id="tab_2" class="tab">
+                        <span class="icon icon-spades-icon"></span>
+                        <div class="tab_text">Ratings Info</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" id="tab_3" class="tab">
+                        <span class="icon icon-bag-icon"></span>
+                        <div class="tab_text">where to buy</div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tabs_wrap">
+                <div class="tab_content active" data-id="tab_1">
+
+                    <div class="card card-info_block">
+                        <div class="card-info_block-desc">
+                            <div class="farcry-img">
+                                <img src="assets/img/farcry6.png" alt="">
+                            </div>
+                            <div class="star-rating"></div>
+                        </div>
+                        <div class="card-desc">
+                            <div class="card-desc_first-block">
+                                <div class="card-desc_game-name">
+                                    <h2>FarCry 6</h2>
+                                    <p>First Released Oct 6, 2021</p>
+                                </div>
+                                <div class="pie-title-center rating" data-percent="87">
+                                    <span class="pie-value">8.7</span>
+                                </div>
+                            </div>
+                            <p class="card-info">Far Cry 6 is a 2021 action-adventure first-person shooter game
+                                developed by
+                                Ubisoft
+                                Toronto. It is
+                                the sixth main installment in the Far Cry series and the successor Far Cry 5.
+                            </p>
+                            <div class="price">
+                                <div class="price-info">
+                                    <p class="discount">20% OFF!</p>
+                                    <h2>$59.96</h2>
+                                </div>
+                                <button type="button" class="btn">Buy it now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab_content" data-id="tab_2">
+                    <div class="card card-rating_block">
+                        <h2>FarCry 6</h2>
+                        <div class="farcry-img">
+                            <img src="assets/img/farcry6.png" alt="">
+                        </div>
+                        <div class="rating-list">
+                            <div class="rating-item">
+                                <div class="pie-title-center rating" data-percent="653">
+                                    <span class="pie-value">653k</span>
+                                </div>
+                                <p class="rating-desc">Number of downloads</p>
+                            </div>
+                            <div class="rating-item">
+                                <div class="pie-title-center rating" data-percent="83">
+                                    <span class="pie-value">83%</span>
+                                </div>
+                                <p class="rating-desc">Positive reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab_content" data-id="tab_3">
+                    <div class="card card-purchase_block">
+                        <div class="card-purchase_desc">
+                            <h2>FarCry 6</h2>
+                            <p class="first-released">First Released Oct 6, 2021</p>
+                            <div class="farcry-img">
+                                <img src="assets/img/farcry6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="card-purchase_block-price">
+                            <div class="price-info">
+                                <p class="discount">20% OFF!</p>
+                                <h2>$59.96</h2>
+                            </div>
+                            <button type="button" class="btn">Buy it now</button>
+                            <button type="button" class="btn">Add to Basket</button>
+                            <button type="button" class="btn">Make a reservation</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/pie-chart.js"></script>
+    <script src="assets/js/stars.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
